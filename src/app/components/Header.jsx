@@ -6,7 +6,6 @@ import { usePathname } from "next/navigation";
 const Header = () => {
     const [open, setOpen] = useState(false);
 const location =usePathname()
-console.log(location)
 return (
 <header className="py-1 bg-blue-900 text-white">
     <section className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

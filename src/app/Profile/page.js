@@ -13,7 +13,7 @@ return (
     <Header />
     <Image src={profile} alt="" height={500} className="w-full h-96" />
 
-    <div className="container">
+    <main className="container">
     <h1 className="text-center my-8 text-5xl capitalize">
         <span className="uppercase text-blue-900 font-semibold"> atc </span>{" "}
         profile
@@ -51,7 +51,7 @@ return (
         </span>{" "}
         download ATC profile
     </a>
-    </div>
+    </main>
     <Footer />
 </>
 );

@@ -2,8 +2,8 @@ import React from 'react'
 
 const Table = () => {
   return (
-<div className=' flex flex-col-reverse sm:flex-row justify-between my-7 bg-gradient-to-b from-blue-950 to-blue-500  sm:bg-gradient-to-r from-blue-950 via-blue-500 to-blue-300  rounded-lg text-white'>
-<div className='left p-10 w-full sm:w-1/2 '>
+<main className=' flex flex-col-reverse sm:flex-row justify-between my-7 bg-gradient-to-b from-blue-950 to-blue-500  sm:bg-gradient-to-r from-blue-950 via-blue-500 to-blue-300  rounded-lg text-white'>
+<aside className='left p-10 w-full sm:w-1/2 '>
   <h1 className='text-center text-3xl uppercase font-medium mb-7 '>mission</h1>
 <ol className='list-disc flex flex-col gap-7 leading-7 tracking-wide '>
   <li>To deliver innovative and reliable
@@ -35,8 +35,8 @@ with our commitment to corporate
 social responsibility.
 </li>
 </ol>
-</div>
-<div className='right p-10 w-full sm:w-1/2 border-b sm:border-none'>
+</aside>
+<section className='right p-10 w-full sm:w-1/2 border-b sm:border-none'>
 <h1 className='text-center text-3xl uppercase font-medium mb-7 '>vission</h1>
 <p className='leading-7 tracking-wide'>Our vision at ATC is to be
 the premier provider of
@@ -54,8 +54,8 @@ consistently delivering
 superior quality and
 unmatched customer
 satisfaction</p>
-</div>
-</div>
+</section>
+</main>
   )
 }
 

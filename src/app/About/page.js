@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <>
       <Header />
-      <div className="about container">
+      <main className="about container">
         <h1 className=" text-center capitalize text-blue-800 font-medium text-5xl mt-10">
           about us
         </h1>
@@ -35,7 +35,7 @@ const Page = () => {
         </h3>
 
         <Table />
-      </div>
+      </main>
       <Footer />
     </>
   );

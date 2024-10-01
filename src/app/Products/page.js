@@ -84,11 +84,11 @@ structures with minimal noise output.`,
 return (
 <>
     <Header />
-    <div className="container">
+    <main className="container">
     {data?.map((one) => (
         <One data={one} key={data.info} />
     ))}
-    </div>
+    </main>
     <Footer />
 </>
 );
